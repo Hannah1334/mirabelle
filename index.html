@@ -1,0 +1,298 @@
+<script>resizeTo(screen.availWidth, screen.availHeight);</script>
+
+<style>
+body{
+background-image: url('http://www.transparenttextures.com/patterns/stardust.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+background-color:#FFFFFF;
+}
+
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #9EC2CE;}
+
+#box1 {
+position:absolute;
+background-color:#CDE9F4;
+width:20%;
+height:70%;
+top:15%;
+left:27%;
+}
+
+#pic {
+position:relative;
+border:1px solid #9EC2CE;
+background-color:#FFFFFF;
+height:88%;
+width:80%;
+top:6%;
+left:10%;
+}
+
+#box2 {
+position:absolute;
+background-color:#CDE9F4;
+width:20%;
+height:70%;
+top:15%;
+left:52%;
+}
+
+#content {
+position:relative;
+border:1px solid #9EC2CE;
+background-color:#FFFFFF;
+padding:2%;
+overflow:auto;
+height:86%;
+width:75%;
+top:6%;
+left:10%;
+font-family: 'Cabin Condensed', sans-serif;
+color:#000000;
+font-size:1.5vh;
+}
+
+#tabbox1 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:25%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:45%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:65%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:25%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox5 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:45%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox6 {
+position:absolute;
+background-color:#9EC2CE;
+height:19%;
+width:10%;
+top:0%;
+left:65%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox1:hover,#tabbox2:hover,#tabbox3:hover,#tabbox4:hover,#tabbox5:hover,#tabbox6:hover {
+top:-11%;
+background-color:#CDE9F4;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs{
+display:block;
+opacity:0;
+border:1px solid #9EC2CE;
+background-color:#FFFFFF;
+width:60%;
+height:100%;
+padding:2%;
+margin-left:15%;
+margin-top:15%;
+text-align:center;
+color:#2EAAF2;
+font-family: 'Cabin Condensed', sans-serif;
+text-transform:uppercase;
+font-size:1.2vh;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+opacity:1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12 {
+display: none;
+}
+
+i {
+color:#666666;
+}
+
+a {
+color:#9EC2CE;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+a:hover {
+color:#666666;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+h1 {
+color: #666666;
+font-family: 'Great Vibes', cursive;
+text-align:center;
+letter-spacing:5px;
+font-size: 3vh;
+border-bottom:1px solid #9EC2CE;
+}
+
+b {
+color:#9EC2CE;
+font-family: 'Amatic SC', cursive;
+font-size:2vh;
+}
+
+</style>
+
+<style type="text/css">* {cursor: url(http://ani.cursors-4u.net/nature/nat-11/nat1046.cur), auto !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Condensed|Great+Vibes" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('content').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('pic').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="box1">
+<div id="tabbox1">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2')">B<br>A<br>S<br>I<br>C<br>S</span>
+</div>
+<div id="tabbox2">
+<span class="tabs" onClick="changeNavigation ('tab3');changeNavigation1 ('tab4')">D<br>E<br>T<br>A<br>I<br>L<br>S</span>
+</div>
+<div id="tabbox3">
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab6')">H<br>I<br>S<br>T<br>O<br>R<br>Y</span>
+</div>
+<div id="pic">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/PDiGx6E.png"/>
+</div>
+</div>
+
+<div id="box2">
+<div id="tabbox4">
+<span class="tabs" onClick="changeNavigation ('tab7');changeNavigation1 ('tab8')">O<br>C<br>C<br>U<br>L<br>T</span>
+</div>
+<div id="tabbox5">
+<span class="tabs" onClick="changeNavigation ('tab9');changeNavigation1 ('tab10')">A<br>B<br>I<br>L<br>I<br>T<br>Y</span>
+</div>
+<div id="tabbox6">
+<span class="tabs" onClick="changeNavigation ('tab11');changeNavigation1 ('tab12')">P<br>E<br>E<br>R<br>S</span>
+</div>
+<div id="content">
+<h1>Clairvoyant</h1>
+<b>This is bold</b>
+<br>
+<i>This is itallic</i>
+<br>
+<a target="_blank" href="http://ulreich.weebly.com">This is a link</a><br>
+This is normal text.
+<br><br>
+<b>Hint:</b> Navigate tabs via dark buttons up top.
+</div>
+</div>
+
+<div id="tab1">
+<h1>Clairvoyant</h1>
+<b>This is bold</b>
+<br>
+<i>This is itallic</i>
+<br>
+<a target="_blank" href="http://ulreich.weebly.com">This is a link</a><br>
+This is normal text.
+<br><br>
+<b>Hint:</b> Navigate tabs via dark buttons up top.
+</div>
+<div id="tab2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/PDiGx6E.png"/>
+</div>
+
+<div id="tab3">
+<h1>Tab One</h1>
+</div>
+<div id="tab4">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/7mxI2X3.jpg"/>
+</div>
+
+<div id="tab5">
+<h1>Tab Two</h1>
+</div>
+<div id="tab6">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/LjooeHs.png"/>
+</div>
+
+<div id="tab7">
+<h1>Tab Three</h1>
+</div>
+<div id="tab8">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/ZCZV1Q4.jpg"/>
+</div>
+
+<div id="tab9">
+<h1>Tab Four</h1>
+</div>
+<div id="tab10">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/QOjs4DM.png"/>
+</div>
+
+<div id="tab11">
+<h1>Tab Five</h1>
+</div>
+<div id="tab12">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/2N8xZMI.jpg"/>
+</div>
+
+<embed style="height: 0%; width: 0%;"src="Clairvoyant.mp3" autostart="true" loop="true">
